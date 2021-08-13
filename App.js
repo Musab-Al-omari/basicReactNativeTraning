@@ -6,6 +6,7 @@ import HomeScreen from './src/HomeScreen'
 import ImageShower from './src/ImageShower';
 import List from './src/List';
 import Counter from './src/Counter'
+import AddColor from './src/AddColor';
 // import { View, Text } from 'react-native';
 
 const Stack = createStackNavigator();
@@ -19,6 +20,7 @@ export default function App() {
         <Stack.Screen name='ImageShower' component={ImageShower} />
         <Stack.Screen name='List' component={List} />
         <Stack.Screen name='Counter' component={Counter} />
+        <Stack.Screen name='Add Color' component={AddColor} />
       </Stack.Navigator>
     </NavigationContainer>
   );
