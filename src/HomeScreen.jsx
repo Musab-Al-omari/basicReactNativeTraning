@@ -7,7 +7,10 @@ const HomeScreen = ({ navigation }) => {
   return (
     <>
       <Button title="homeScreen" />
-      <Button onPress={() => navigation.navigate('hello')} title="hello" />
+      <Button
+        onPress={() => navigation.navigate('ImageShower')}
+        title="Image Shower"
+      />
       <Button onPress={() => navigation.navigate('List')} title="List" />
     </>
   );
