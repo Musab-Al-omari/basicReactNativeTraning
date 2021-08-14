@@ -9,6 +9,7 @@ import Counter from './src/Counter'
 import AddColor from './src/AddColor';
 import ChangeColor from './src/ChangeColor'
 import ReducerChangeColor from './src/NewChangeColor'
+import TextInputs from './src/TextInputs';
 // import { View, Text } from 'react-native';
 
 const Stack = createStackNavigator();
@@ -25,6 +26,7 @@ export default function App() {
         <Stack.Screen name='Add Color' component={AddColor} />
         <Stack.Screen name='Change Color' component={ChangeColor} />
         <Stack.Screen name='Reducer Change Color' component={ReducerChangeColor} />
+        <Stack.Screen name='Text Inputs' component={TextInputs} />
       </Stack.Navigator>
     </NavigationContainer>
   );
